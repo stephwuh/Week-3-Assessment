@@ -1,0 +1,9 @@
+Question: 
+    How does the internet work?
+Answer:
+    The internet is a global network of networks that uses the internet protocol suite. The internet is connected through various kinds of computers. A router is a computer that ensures that the message arrives at the correct destination. A server is a computer where information related to webpages, apps, etc are stored. When a computer requests information from a server, the server does not send the full data all at once, but sends small pieces of it called packets to make it possible for many people to download at the same time.
+
+Question:
+    What happens when you click on a link?
+Answer:
+    The browser makes a request to the server where the related information is stored. In order to do that, the browser communicates with the DNS (domain name server) to get the IP address of the URL associated with the link. Based on the IP address, the computer making the request then reaches out to the server where the related information is stored. The server then executes program to retrieve the information, then sends it back to the computer that made the request. The browser then recieves the HTML file, processes it, then renders it on the page. 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('./matrix.jpeg');
+        }
+        nav, main {
+            background-color: black;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
+    <main>
+        <h1>Stephen's Profile Page</h1> 
+        <h3>Financial planning analyst turned insurrectionist hacker. Fighting against big government and corporations to free humanity from oppression.</h3>
+        <h4>1.Skills</h4>
+        <ul>
+            <li>Speed Typing</li>
+            <li>Tekken Tournament</li>
+            <li>Korean</li>
+            <li>Addition/Subtration</li>
+        </ul>
+        <form>
+            <h4>2.Survey</h4>
+            <label for="food">What's for lunch?</label>
+            <select id="food" name="food">
+                <option value="cockroach-protein-bar">cockroach protein bar</option>
+                <option value="locus">locus</option>
+                <option value="dandelion-salad">dandelion salad</option>
+            </select>
+        <h4>3.Would you like to join my cause?</h4>
+            <form>
+                <label for="yes">Yes I would love to!</label>
+                <input type="radio" id="yes" name="answer" value="yes">
+                <label for="not-worth">I am not worthy :(</label>
+                <input type="radio" id="not-worthy" name="answer" value="not-worthy">
+            </form>
+            
+
+
+
+        </form> <br>
+        <button id="color" class="button">My Favorite Color</button>
+        <button id="place" class="button">My Favorite Place</button>
+        <button id="ritual" class="button">My Favorite Ritual</button>
+
+    </main>
+    <script src="profile.js"></script>
+</body>
+</html>
+
+<br>
+<br>
+
+<a href="./home.html"><< Back </a>
